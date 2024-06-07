@@ -1,8 +1,8 @@
 "use client";
 
 import { Component, useState } from "react";
-// import SlowComponent from "./SlowComponent";
-import SlowFnComponent from "./SlowFnComponent";
+// import SlowComponent from "../components/SlowComponent";
+import SlowFnComponent from "../components/SlowFnComponent";
 
 type CounterState = {
   count: number;
